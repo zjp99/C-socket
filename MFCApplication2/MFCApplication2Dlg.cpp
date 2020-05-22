@@ -306,7 +306,7 @@ DWORD WINAPI AcceptClient_Proc(LPVOID param)
 LRESULT  CMFCApplication2Dlg::OnUpdateMyData(WPARAM wParam, LPARAM lParam)
 {
 
-	//m_vReceiveEdit = "";
+	//m_vReceiveEdit = "";11
 	GetDlgItem(IDC_EDIT1)->SetWindowTextW(_T(""));
 
 	UpdateData(TRUE);
